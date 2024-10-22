@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.calculatorfx.HelloController"
+            prefHeight="400.0" prefWidth="600.0" >
+        <Label text="Instructions" />
+        <Label text="1. Enter your weight in kilograms." />
+        <Label text="2. Enter your height in meters." />
+        <Label text="2.1. If you want to enter values in ibs/inc you can click the radio." />
+        <Label text="3. Click 'Calculate BMI' to get your result." />
+        <Label text="4. Use the 'Clear' in the 'File' menu button to reset the input fields." />
+        <Label text="5. Use the 'Exit' button in the 'File' menu to exit." />
+</VBox>
